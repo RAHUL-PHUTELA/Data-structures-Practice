@@ -2,8 +2,8 @@
 // 1. Fibonacci Number - 12 - 59
 // 2. Maze Path with Single Jump 87
 // 3. Maze Path with Multi Jump 134
-// 4.
-
+// 4. Dice Problem 0 - 10 with Dice -  177
+// 5. Dice Problem with given array - 270
 
 
 
@@ -174,7 +174,7 @@ int mazePathMultiJump_tabulation(int R, int C, int n, int m, vector<vector<int>>
     }
     return dp[0][0];
 }
-
+// Dice Problem
 int DiceProblem_memo(int a, int Start, int End, int TarB, vector<int> &dp){
     if(a == TarB){
         return dp[a] = 1;
